@@ -20,8 +20,8 @@
 category: common
 depends:
 - gnuradio
-- liquid-dsp
-description: Simple transceiver based on liquid-dsp with apps
+- gr-liquiddsp
+description: Cognitive engine blocks that interface with gr-liquiddsp
 gitbranch: master
 inherit: cmake
-source: git+https://github.com/gvanhoy/gr-liquiddsp-2.git
+source: git+https://github.com/gvanhoy/gr-cognition.git
