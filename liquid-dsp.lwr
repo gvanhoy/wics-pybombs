@@ -25,5 +25,5 @@ vars:
  config_opt: CFLAGS="-march=native"
 description: Digital signal processing library for software-defined radios
 gitbranch: master
-inherit: bootstrapautoconf
+inherit: autoconf
 source: wget+https://github.com/jgaeddert/liquid-dsp/archive/v1.3.0.tar.gz
